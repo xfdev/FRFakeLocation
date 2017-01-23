@@ -13,6 +13,7 @@
 		E05236961E35FAFF0026FA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05236951E35FAFF0026FA68 /* Assets.xcassets */; };
 		E05236A41E35FAFF0026FA68 /* FRFakeLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E05236A31E35FAFF0026FA68 /* FRFakeLocationTests.m */; };
 		E05236AF1E35FAFF0026FA68 /* FRFakeLocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E05236AE1E35FAFF0026FA68 /* FRFakeLocationUITests.m */; };
+		E0DFB0071E35FD800034FF69 /* CustomLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E0DFB0061E35FD800034FF69 /* CustomLocation.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E05236AA1E35FAFF0026FA68 /* FRFakeLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRFakeLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05236AE1E35FAFF0026FA68 /* FRFakeLocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRFakeLocationUITests.m; sourceTree = "<group>"; };
 		E05236B01E35FAFF0026FA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0DFB0061E35FD800034FF69 /* CustomLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CustomLocation.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		E052367D1E35FAFE0026FA68 = {
 			isa = PBXGroup;
 			children = (
+				E0DFB0061E35FD800034FF69 /* CustomLocation.gpx */,
 				E05236881E35FAFE0026FA68 /* FRFakeLocation */,
 				E05236A21E35FAFF0026FA68 /* FRFakeLocationTests */,
 				E05236AD1E35FAFF0026FA68 /* FRFakeLocationUITests */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05236961E35FAFF0026FA68 /* Assets.xcassets in Resources */,
+				E0DFB0071E35FD800034FF69 /* CustomLocation.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +495,7 @@
 				E05236B51E35FAFF0026FA68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05236B61E35FAFF0026FA68 /* Build configuration list for PBXNativeTarget "FRFakeLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				E05236B81E35FAFF0026FA68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05236B91E35FAFF0026FA68 /* Build configuration list for PBXNativeTarget "FRFakeLocationUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +513,7 @@
 				E05236BB1E35FAFF0026FA68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
